@@ -1,6 +1,6 @@
 <center>
 <h1><b>Predicting Land Cover Change</b></h1>
-<h2>By Using Remote Sensing Technologies</h2>
+<h2>By Using Remote Sensing Data</h2>
 </center>
 <p><font face="cambria" color="gray"><i>** This project is carried out within my doctoral studies, which is researching AI & DLT (blockchain) interoperability.</i></font></p>
 
