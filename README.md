@@ -13,4 +13,4 @@ Large cities in developing countries are subject to a dynamic urbanization proce
 
 These changes have a negative effect on the natural cover and #ecosystem. Therefore, regular follow-up of changes due to urbanization and detecting the current situation is important.
 
-One of the most important image processing techniques in remote sensing science is classification. Utilizing the #Deep #Neural #Network binary-classification prediction with #remotesensing images, many use cases can be applied, such as land cover and usage purpose, water resources management, and change analysis.
+One of the most important image processing techniques in remote sensing science is classification. Utilizing the Deep Neural Network binary-classification in prediction with #remotesensing images, many use cases can be applied, such as land cover and usage purpose, water resources management, and change analysis.
