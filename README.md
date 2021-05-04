@@ -56,9 +56,9 @@ Data sets consist of 2 classes via Google Earth Engine; [1] It is simply classif
 
 <h2>Methods</h2>
 
-In this project, *TensorFlow Keras Sequential model* is used as the DNN model.
-While the model is being trained, *Keras callback* editor calls have been added, which allow monitoring the training process in order to accelerate convergence, avoid overfitting and reach the most optimum model.
+In this project, [TensorFlow Keras Sequential model](https://www.tensorflow.org/guide/keras/sequential_model) is used as the DNN model.
+While the model is being trained, **Keras callback** editor calls have been added, which allow monitoring the training process in order to accelerate convergence, avoid overfitting and reach the most optimum model.
 
-In this project, *validation_loss* is set to halt the training process if it loses value at 10 epochs. Finally, in the model, the *ModelCheckpoint* function has been adjusted to get the value where the *validation_loss* value reaches the best value by saving it to the given variable.
+In this project, **validation_loss** is set to halt the training process if it loses value at 10 epochs. Finally, in the model, the **ModelCheckpoint** function has been adjusted to get the value where the **validation_loss** value reaches the best value by saving it to the given variable.
 
-The model compilation is *Stochastic Gradient Descent (SGD)* and *binary_crossentropy* loss function is used for its optimization.
+The model compilation is **Stochastic Gradient Descent (SGD)** and **binary_crossentropy** loss function is used for its optimization.
