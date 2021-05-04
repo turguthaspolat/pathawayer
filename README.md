@@ -2,7 +2,7 @@
 <h1><b>Predicting Land Cover Change</b></h1>
 <h2>By Using Remote Sensing Technologies</h2>
 </center>
-<p><font face="cambria" color="gray"><i>** This project is carried out within my doctoral studies, which is researching artificial intelligence blockchain interoperability.</i></font></p>
+<p><font face="cambria" color="gray"><i>** This project is carried out within my doctoral studies, which is researching AI & DLT (blockchain) interoperability.</i></font></p>
 
 <font face="cambria" color="gray"><i>** This notebook has been inspired by the [Chris Brown & Nick Clinton EarthEngine + Tensorflow presentation](https://www.youtube.com/watch?v=w-1xfF0IaeU). It shows the step by step how to integrate Google Earth Engine and TensorFlow 2.0 in the same pipeline (EE->Tensorflow->EE).</i></font>
 <hr>
