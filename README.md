@@ -1,6 +1,6 @@
 <center>
 <h1><b>Predicting Land Cover Change</b></h1>
-<h2>Using Remote Sensing Technologies</h2>
+<h2>By Using Remote Sensing Technologies</h2>
 <h5>Project code name: <b>PathAwayer</b>, Version <b>0.3</b></h5>
 
 </center>
@@ -8,7 +8,6 @@
 
 <font face="cambria" color="gray"><i>** This notebook has been inspired by the [Chris Brown & Nick Clinton EarthEngine + Tensorflow presentation](https://www.youtube.com/watch?v=w-1xfF0IaeU). It shows the step by step how to integrate Google Earth Engine and TensorFlow 2.0 in the same pipeline (EE->Tensorflow->EE).</i></font>
 <hr>
-<br>
 
 The natural land cover of the earth has been subjected to great changes over many years depending on human activities and different usage methods.
 
