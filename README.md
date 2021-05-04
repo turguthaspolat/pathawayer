@@ -43,7 +43,7 @@ The data obtained are stored separately for each band detected by the sensor. In
 
 <h3>Prediction Area</h3>
 
-In the project, an area of approximately 10 km2 (3.5km x 3km) that will cover the **Marmaris** / Akyaka, Turkey environment is determined as the predction area.
+In the project, an area of approximately 10 km2 (3.5km x 3km) that will cover the **Marmaris** / Akyaka, Turkey environment is determined as the prediction area.
 
 
 <center>
