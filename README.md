@@ -87,6 +87,8 @@ The detailed steps of a round updating a global model M are as follows:
 
 You can review the open source code on Collective Learning [Github repository](https://github.com/fetchai/colearn)
 
+Within the scope of this study, I implemented a [simple application](https://github.com/turguthaspolat/pathawayer/blob/main/pathawayer_dnn_colearn_01.ipynb) by adapting the collective learning modules provided by Fetch.ai
+
 <h2>Problem Area</h2>
 <p>The natural land cover of the earth has been subjected to great changes over many years depending on human activities and different usage methods.
 
