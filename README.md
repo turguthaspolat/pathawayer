@@ -55,7 +55,7 @@ Next, model parameters are exchanged via an application programming interface (A
 
 <h2>Current solutions on the way of AI & Blockchain Symbiosis</h2>
 
-A solution, called collective learning, suitable for the above context is being developed by the startup company, [Fetch ai](https://fetch.ai/).
+A solution, called collective learning, suitable for the above context is being developed by the startup company, [Fetch.ai](https://fetch.ai/).
 
 <h5>What is Collective Learning</h5>
 
