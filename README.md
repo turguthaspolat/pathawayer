@@ -32,7 +32,7 @@ Decentralized AI solutions would overcome current shortcomings that accommodate 
 Distributed machine learning based on standardized AI engines with a blockchain can be securely onboard members, dynamically elect the leader among members, and merge model parameters.
 </p>
 
-<h2>Future Aspects</h2>
+<h2>Future Aspects of AI & Blockchain Symbiosis</h2>
 <p>We would need a framework to enable decentralized training of machine learning models without sharing the data.
 
 This framework should able to make it possible for a set of nodes—each node possessing some training data locally—to train a common machine learning model collaboratively without sharing the training data.
@@ -51,8 +51,40 @@ The framework should interact with other peers using blockchain for sharing para
 A new node enrolls via a blockchain smart contract, obtains the model, and performs local model training until defined conditions for synchronization are met. 
 
 Next, model parameters are exchanged via an application programming interface (API) and merged to create an updated model with updated parameter settings before starting a new training round.
- 
 </p>
+
+<h2>Current solutions on the way of AI & Blockchain Symbiosis</h2>
+<p>A solution, called collective learning, suitable for the above context is being developed by the startup company [Fetch.ai](https://fetch.ai/).</p>
+
+<h5>What is Collective Learning</h5>
+
+Collective Learning or colearn is a library that enables privacy-preserving decentralized machine learning tasks on the [FET network](https://fetch.ai/).
+
+**Blockchain**-mediated collective learning system enables multiple stakeholders to build a shared machine learning model without needing to rely on a central authority, and without revealing sensitive information about their dataset to the other stakeholders.
+
+The collective learning protocol allows learners to collaborate on training a model without requiring trust between the participants. Learners vote on updates to the model, and only updates which pass the quality threshold are accepted. This makes the system robust to attempts to interfere with the model by providing bad updates.
+
+For more information [Fetch.ai Colearn Web Site](https://docs.fetch.ai/colearn/)
+
+<h5>How Training Works</h5>
+<p>Training occurs in rounds; during each round the learners attempt to improve the performance of the global shared model. To do so each round an update of the global model (for example a new set of weights in a neural network) is proposed. The learners then evaluate the update and decide if the new model is better than the current global model.
+
+The detailed steps of a round updating a global model M are as follows:
+</p>
+
+*   One of the learners is selected and proposes a new updated model M’
+*   The rest of the learners validate M’
+*   If M’ has better performance than M against their private data set then the learner votes to approve
+*   If not the learner votes to reject
+*   The total votes are tallied
+*   If more than some threshold (typically 50%) of learners approve then M’ becomes the new global model. If not, M continues to be the global model
+*   A new round begins.
+
+<center>
+<img src="https://fetch.ai/wp-content/uploads/2020/06/Collective-Learning-Graphic-New.png" with="400" height="400">
+</center> 
+
+You can review the open source code on Collective Learning [Github repository](https://github.com/fetchai/colearn)
 
 <h2>Problem Area</h2>
 <p>The natural land cover of the earth has been subjected to great changes over many years depending on human activities and different usage methods.
