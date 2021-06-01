@@ -30,7 +30,28 @@ Data sovereignty, security, and privacy can all create barriers to transferring 
 Decentralized AI solutions would overcome current shortcomings that accommodate inherently distributed data structures and data privacy and security regulations.
 
 Distributed machine learning based on standardized AI engines with a blockchain can be securely onboard members, dynamically elect the leader among members, and merge model parameters.
+</p>
 
+<h2>Future Aspects</h2>
+<p>We would need a framework to enable decentralized training of machine learning models without sharing the data.
+
+This framework should able to make it possible for a set of nodes—each node possessing some training data locally—to train a common machine learning model collaboratively without sharing the training data.
+
+This can be achieved by individual nodes sharing parameters (weights) derived from training the model on the local data.
+This allows local measures at the nodes to maintain the confidentiality and privacy of the raw data.
+
+In contrast to many existing federated learning models, any central parameter server should be omitted.
+
+The framework can inherit developments to further preserve privacy such as differential privacy algorithms, functional encryption, encrypted transfer learning, or homomorphic encryption approaches.
+
+The framework itself does not rely on a fixed central aggregator but instead implements a dynamic selection of changing aggregators for every merge cycle by means of smart contracts.
+
+The framework should interact with other peers using blockchain for sharing parameters and for controlling the training process.
+
+A new node enrolls via a blockchain smart contract, obtains the model, and performs local model training until defined conditions for synchronization are met. 
+
+Next, model parameters are exchanged via an application programming interface (API) and merged to create an updated model with updated parameter settings before starting a new training round.
+ 
 </p>
 
 <h2>Problem Area</h2>
