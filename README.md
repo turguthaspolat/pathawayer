@@ -13,6 +13,26 @@ The collective learning codes adapted from [Fecth.ai Colearn Github Repository](
  </i></font>
 
 ---
+
+<h2>Introduction</h2>
+<p>As a result of recent advances in remote sensing (RS) technology, huge amounts of RS images have been acquired and stored in massive archives, from which the mining of useful information is an important and challenging issue.
+
+When data is produced at unprecedented speed, in high volume, and at distributed locations, aggregating it to a centralized location, such as cloud, for centralized machine learning (ML) is a formidable if not impractical hurdle.
+
+In a centralized machine learning approach, the training data is aggregated to a centralized location, where machine models are developed, trained, and tested. 
+
+In centralized computing such as the cloud, machine learning can be carried out centrally, which can substantially increase the amount of data available for training and thereby improve machine learning results. But this poses disadvantages such as data duplication and increased data traffic as well as challenges for data privacy and security.
+
+One major challenge to the centralized learning approach is the increasingly distributed nature of data, driven by the proliferation of data sources around us. 
+
+Data sovereignty, security, and privacy can all create barriers to transferring and aggregating the vast amount of data required to train ML models. In addition, the costs of a central infrastructure to host and process the aggregated data can be prohibitive.
+
+Decentralized AI solutions would overcome current shortcomings that accommodate inherently distributed data structures and data privacy and security regulations.
+
+Distributed machine learning based on standardized AI engines with a blockchain can be securely onboard members, dynamically elect the leader among members, and merge model parameters.
+
+</p>
+
 <h2>Problem Area</h2>
 <p>The natural land cover of the earth has been subjected to great changes over many years depending on human activities and different usage methods.
 
