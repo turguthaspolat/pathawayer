@@ -54,7 +54,7 @@ Next, model parameters are exchanged via an application programming interface (A
 </p>
 
 <h2>Current solutions on the way of AI & Blockchain Symbiosis</h2>
-A solution, called collective learning, suitable for the above context is being developed by the startup company [Fetch.ai](https://fetch.ai/).
+A solution, called collective learning, suitable for the above context is being developed by the startup company, [Fetch.ai](https://fetch.ai/).
 
 <h5>What is Collective Learning</h5>
 
@@ -67,10 +67,10 @@ The collective learning protocol allows learners to collaborate on training a mo
 For more information [Fetch.ai Colearn Web Site](https://docs.fetch.ai/colearn/)
 
 <h5>How Training Works</h5>
-<p>Training occurs in rounds; during each round the learners attempt to improve the performance of the global shared model. To do so each round an update of the global model (for example a new set of weights in a neural network) is proposed. The learners then evaluate the update and decide if the new model is better than the current global model.
+Training occurs in rounds; during each round the learners attempt to improve the performance of the global shared model. To do so each round an update of the global model (for example a new set of weights in a neural network) is proposed. The learners then evaluate the update and decide if the new model is better than the current global model.
 
 The detailed steps of a round updating a global model M are as follows:
-</p>
+
 
 *   One of the learners is selected and proposes a new updated model M’
 *   The rest of the learners validate M’
