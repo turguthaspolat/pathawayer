@@ -127,7 +127,7 @@ In the project, an area of approximately 10 km2 (3.5km x 3km) that will cover th
 
 
 <center>
-<img src="https://media-exp1.licdn.com/dms/image/C4D22AQHEl6i4NLL-Ng/feedshare-shrink_800/0/1619435849862?e=1623283200&v=beta&t=30ypGSa85v0plKJ8Z94kD26ykIHqYUwSSGw9XBmpSPU">
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*40OfVRGaJiir2C_MFYdKkQ.png">
 </center> 
 
 <h3>Classification of Satellite Images</h3>
